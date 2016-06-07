@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17553" started-at="2016-06-01T14:28:20Z" finished-at="2016-06-01T14:28:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17553" started-at="2016-06-01T14:28:20Z" finished-at="2016-06-01T14:28:38Z">
+      <class name="innRoad.innCenter.suite.Sikulidemo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:innRoad.innCenter.suite.Sikulidemo@6093dd95]" name="setup" is-config="true" duration-ms="2691" started-at="2016-06-01T19:58:20Z" finished-at="2016-06-01T19:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:innRoad.innCenter.suite.Sikulidemo@6093dd95]" name="Test" duration-ms="13598" started-at="2016-06-01T19:58:23Z" finished-at="2016-06-01T19:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:innRoad.innCenter.suite.Sikulidemo@6093dd95]" name="teardown" is-config="true" duration-ms="1217" started-at="2016-06-01T19:58:37Z" finished-at="2016-06-01T19:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- innRoad.innCenter.suite.Sikulidemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

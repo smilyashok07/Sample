@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="IHD-CVH8TS1" name="innRoad.innCenter.suite.testng_Learning" tests="3" failures="0" timestamp="31 May 2016 13:29:43 GMT" time="0.062" errors="0">
+  <testcase name="test1" time="0.001" classname="innRoad.innCenter.suite.testng_Learning"/>
+  <testcase name="test2" time="0.0" classname="innRoad.innCenter.suite.testng_Learning"/>
+  <testcase name="test3" time="0.001" classname="innRoad.innCenter.suite.testng_Learning"/>
+</testsuite>
