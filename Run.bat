@@ -1,0 +1,1 @@
+java -cp U:\Innroad_DataDriven\InnRoad\InnRoad\InnRoad_DataDrivenFrameWork\bin;U:\Innroad_DataDriven\InnRoad\InnRoad\InnRoad_DataDrivenFrameWork\lib\* org.testng.TestNG testng.xml
