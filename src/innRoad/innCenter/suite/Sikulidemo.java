@@ -2,6 +2,7 @@ package innRoad.innCenter.suite;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Pattern;
@@ -14,8 +15,9 @@ public class Sikulidemo {
 	@BeforeClass
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver","U:\\Selenium\\IE&Chrome Drivers\\Drivers\\chromedriver.exe");
-			driver = new ChromeDriver();
+		/*System.setProperty("webdriver.chrome.driver","U:\\Selenium\\IE&Chrome Drivers\\Drivers\\chromedriver.exe");
+			driver = new ChromeDriver();*/
+		driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 	}
 @Test

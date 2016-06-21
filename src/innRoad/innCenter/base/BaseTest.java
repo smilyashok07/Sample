@@ -67,6 +67,7 @@ public class BaseTest {
 	public static void initialize() throws Exception {
 		if (Config.browser.equals("FF")) {
 			d = new FirefoxDriver();
+			 d.manage().window().maximize();
 
 		} else if (Config.browser.equals("IE")) {
 			
@@ -76,14 +77,15 @@ public class BaseTest {
 	           capab1.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);  
 	           capab1.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);  
 	           d=new InternetExplorerDriver(capab1);       
-	           
+	           d.manage().window().maximize();
 			
 			//d = new InternetExplorerDriver();
 
 		} else if (Config.browser.equals("GC")) {
 			System.setProperty("webdriver.chrome.driver",
-					"U:\\eclipse\\InnRoad_DataDrivenFramework\\Lists Formats\\Drivers\\chromedriver.exe");
+					"U:\\Selenium\\IE&Chrome Drivers\\Drivers\\chromedriver.exe");
 			d = new ChromeDriver();
+			 d.manage().window().maximize();
 
 		}
 
@@ -95,7 +97,7 @@ public class BaseTest {
 	
 	
 	public void stopDriver() {
-		d.quit();
+		d.close();
 	}
 
 	
@@ -333,6 +335,22 @@ public String  DateConversion (String a) throws ParseException
 	   
 	   if(d.getCurrentUrl().startsWith(data));
    }
+
+	   /*public static void filllogin2(String URL,String ClientCode, String UserID, String Password) throws InterruptedException
+	      {
+	   	  
+	   	   d.manage().window().maximize();
+	   		d.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	   		d.get(URL);
+	   		Wait.wait15Second();
+	   		
+	   		   d.findElement(OR.ClientCode).sendKeys(ClientCode);
+	   		   d.findElement(OR.UserId).sendKeys(UserID);
+	   		   d.findElement(OR.Password).sendKeys(Password);
+	   		   d.findElement(OR.Loginbtn).click();
+	   		   Wait.wait15Second();
+	      } */
+
 }
 
 

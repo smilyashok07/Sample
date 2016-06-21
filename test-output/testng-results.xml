@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17553" started-at="2016-06-01T14:28:20Z" finished-at="2016-06-01T14:28:38Z">
+  <suite name="Suite" duration-ms="13" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17553" started-at="2016-06-01T14:28:20Z" finished-at="2016-06-01T14:28:38Z">
-      <class name="innRoad.innCenter.suite.Sikulidemo">
-        <test-method status="PASS" signature="setup()[pri:0, instance:innRoad.innCenter.suite.Sikulidemo@6093dd95]" name="setup" is-config="true" duration-ms="2691" started-at="2016-06-01T19:58:20Z" finished-at="2016-06-01T19:58:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:innRoad.innCenter.suite.Sikulidemo@6093dd95]" name="Test" duration-ms="13598" started-at="2016-06-01T19:58:23Z" finished-at="2016-06-01T19:58:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:innRoad.innCenter.suite.Sikulidemo@6093dd95]" name="teardown" is-config="true" duration-ms="1217" started-at="2016-06-01T19:58:37Z" finished-at="2016-06-01T19:58:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- innRoad.innCenter.suite.Sikulidemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test name="Test" duration-ms="13" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+      <class name="innRoad.innCenter.suite.testng_Learning">
+        <test-method status="PASS" signature="beforeTest()" name="beforeTest" is-config="true" duration-ms="7" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+        </test-method>
+        <test-method status="PASS" signature="test1()" name="test1" duration-ms="0" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+        </test-method>
+        <test-method status="PASS" signature="test2()" name="test2" duration-ms="0" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+        </test-method>
+        <test-method status="PASS" signature="AfterTest()" name="AfterTest" is-config="true" duration-ms="0" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+        </test-method>
+        <test-method status="PASS" signature="test3()" name="test3" duration-ms="0" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-21T15:32:31Z" finished-at="2016-06-21T15:32:31Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
 </testng-results>

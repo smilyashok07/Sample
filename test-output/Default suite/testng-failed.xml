@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="innRoad.innCenter.suite.Sikulidemo">
+      <class name="innRoad.innCenter.suite.Seasons">
         <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="Test"/>
+          <include name="testUntitled" invocation-numbers="0"/>
+          <include name="stop"/>
         </methods>
-      </class> <!-- innRoad.innCenter.suite.Sikulidemo -->
+      </class> <!-- innRoad.innCenter.suite.Seasons -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
