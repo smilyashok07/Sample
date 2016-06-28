@@ -1,1 +1,1 @@
-java -cp git@github.com:smilyashok07/Sample.git/bin;git@github.com:smilyashok07/Sample.git/lib/* org.testng.TestNG testng.xml
+java -cp D:\Batches\Auto\Sample\bin;D:\Batches\Auto\Sample\lib\* org.testng.TestNG testng.xml
